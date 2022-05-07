@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* about part  */
+.aboutPage{
+    padding: 20px 0px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: right;
+    align-items: center;
+}
+.mainHeading{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #404040;
+}
+.smallHeading{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    align-items: center;
+    margin-left: 70px;
+    float: right;
+}
+.headingLine{
+    width: 60.5px;
+    height: 2px;
+    background: #FFC700;
+    margin: 5px;
+}
+
+.HeadingDown{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 168.18%;
+    text-align: justify;
+    letter-spacing: 0.065em;
+    color: #404040;
+    
+}
+.contentAboutSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.photoAbout{
+    margin: 10px 50px;
+}
+.photoAbout img {
+    width: 26vw;
+}
+.contentAbout{
+    width: 600px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    letter-spacing: 0.055em;
+    color: #404040;
+    margin: 3vw;
+}
+.downloadbtn{
+    width: 235px;
+    height: 40px;
+    background: #EACE09;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    float: right;
+}
+.downloadbtn a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Service Page */
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    width: 298.62px;
+    background: #FFF7DB;
+    border: 1px solid #FFC700;
+    border-bottom: 5px solid #FFC700;
+    box-sizing: border-box;
+    margin: 20px 30px;
+}
+.cardImg{
+    display: block;
+    margin-left: auto !important;
+    margin: 28px;
+    width: 80px;
+}
+.card h4{
+    font-weight: 600;
+    font-size: 22.7617px;
+    line-height: 31px;
+    text-align: right;
+    color: #404040;
+    margin: 25px 28px 5px 28px;
+}
+.card p{
+    font-weight: 400;
+    font-size: 16.2093px;
+    line-height: 26.5px;
+    text-align: right;
+    letter-spacing: 0.065em;
+    color: #404040;
+    margin: 10px 28px 30px 28px;
+}
+
+/* download part  */
+#Download{
+    margin: 60px 0px;
+}
+
+.DownloadOnusEats{
+    background: linear-gradient(180deg, #FFF4A4 0%, #FCF7D8 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgdownload img{
+    width: 30vw;
+    margin: 30px;
+}
+.ASearch_download{
+    text-align: right;
+    margin: 30px;
+}
+
+.B_special_txt{
+    font-style: normal;
+    font-weight: 400;
+    font-size:50px;
+    line-height: 70px;
+    text-align: right;
+    color: #404040;
+    text-shadow: 0px 2.97619px 0px #FFC700;
+}
+.special_txt{
+    font-family: 'Pompiere';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 104.167px;
+    line-height: 125px;
+    text-align: right;
+    color: #404040;
+    text-shadow: 0px 2.97619px 0px #FFC700;
+}
+.Download_link{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+}
+.Download_link p{
+    font-family: 'Pompiere', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: right;
+    color: #404040;
+    padding: 10px 20px;    
+}
+.Download_link img{
+    width: 200px;
+}
+
+/* testomonial  */
+
+.Testomonial{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cardsTestomonial{
+    margin: 40px;
+}
+.testCard1{
+   text-align: center;
+}
+.testom1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 31px;
+    text-align: right;
+    letter-spacing: 0.065em;
+    color: #404040;
+    margin: 40px 0px;
+}
+.testCard1 img{
+    width: 150px;
+}
+.testom2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testom2 h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: justify;
+    color: #404040;
+    margin-bottom: 40px;
+}
+.testomCards{
+    background: #404040;
+    border: 2px solid #FFC700;
+    width: 293px;
+    padding: 27.5px;
+}
+.testomCards img{
+    width: 70px;
+    margin: 8px 0px;
+}
+.testomCards p{
+    font-size: 13px;
+    line-height: 168.18%;
+    letter-spacing: 0.065em;
+    color: #FFF083;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 100 !important;
+}
+
+/* footer  */
+.footer{
+    background: #404040;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.margin_footer{
+    margin: 35px;
+}
+.onusEats_logo h3{
+    font-weight: 600;
+    font-size: 30.3574px;
+    line-height: 27px;
+    color: #EACE09;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 15px 0px;
+}
+.onusEats_logo p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 21px 0px;
+}
+.Download_link_footer{
+    margin:0px 200px ;
+    text-align: center;
+}
+.Download_link_footer p{
+    font-size: 20px;
+    line-height: 20px;
+    color: #EFEEEE;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 25px 0px;
+}
+.Download_link_footer img{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.socialmediafooter{
+    text-align: center;
+}
+.socialmediafooter li{
+    display: inline;
+    margin: 0px 5px;
+}
+.socialmediafooter p{
+    margin: 20px 0px;
+}
+
+/* mobile responsive  */
+
+@media only screen and (max-width: 800px) {
+    .contentAboutSection{
+       display: flex;
+       flex-direction: column;
+    }
+    .photoAbout img {
+        width: 56vw;
+    }
+    .contentAbout {
+        width: 80vw;
+        font-size: 15px;
+        line-height: 27px;
+        letter-spacing: 0.055em;
+        color: #404040;
+    }
+    .mainHeading{
+        font-size: 30px;
+    }
+    .HeadingDown{
+        font-size: 13px;
+    }
+    .headingLine{
+        width: 40.5px;
+        height: 2px;
+    }
+    .downloadbtn{
+        width: 185px;
+        height: 30px;
+    }
+    .downloadbtn a{
+        font-size: 14px;
+    }
+
+    /* service cards  */
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 258.62px;
+        margin: 15px 20px;
+    }
+    .cardImg{
+        margin: 24px;
+        width: 70px;
+    }
+    .card h4{
+        font-size: 19px;
+        line-height: 26px;
+        margin: 20px 24px 3px 25px;
+    }
+    .card p{
+        font-size: 14px;
+        line-height: 25.5px;
+        margin: 8px 23px 35px 23px;
+    }
+
+    /* downloaad the application  */
+    .DownloadOnusEats{
+        flex-direction: column;
+    }
+    .imgdownload img{
+        width: 70vw;
+        margin: 30px;
+        margin-top: 60px;
+    }
+    .B_special_txt{
+        font-size:42px;
+    }
+    .special_txt{
+        font-size: 70px;
+        line-height: 75px;
+    }
+    .ASearch_download {
+        margin: 0px; 
+    }
+    .Download_link img {
+        width: 170px;
+    }
+    .Testomonial{
+        flex-direction: column;
+    }
+    .testCard1 img {
+        width: 100px;
+    }
+    .testom1{
+        font-size: 14px;
+        line-height: 26.5px;
+        letter-spacing: 0.063em;
+        margin: 20px 0px;
+    }
+    .cardsTestomonial{
+        margin: 10px 40px;
+    }
+    .testom2 h3 {
+        font-size: 30px;
+    }
+    .testomCards {
+        width: 258.5px;
+        padding: 20.5px;
+    }
+    .testomCards img {
+        width: 55px;
+        margin: 8px 0px;
+    }
+    .testomCards p {
+        font-size: 12px;
+    }
+    .testom2{
+        text-align: center;
+    }
+
+    /* footer  */
+    .footer {
+        flex-direction: column;
+        padding-bottom:30px ;
+    }
+    .Download_link_footer {
+        margin: 0px;
+        text-align: center;
+    }
+    .Download_link_footer p {
+        font-size: 18px;
+       margin-top: 5px;
+    }
+    .margin_footer {
+        margin: 12.5px;
+    }
+  }
